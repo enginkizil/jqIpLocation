@@ -1,0 +1,25 @@
+{
+  "name": "jqIpLocation",
+  "title": "jqIpLocation jQuery IP Location Plugin",
+  "description": "jqIpLocation is a jQuery Plugin that returns the location of an IP address in JSON format. You can get country, country code, city name, region name, latitude and longitude information about IP address location.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/enginkizil/jqIpLocation",
+  "author": {
+    "name": "Engin KIZIL",
+    "url": "http://www.enginkizil.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://en.wikipedia.org/wiki/MIT_License#License_terms"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.6.2"
+  },
+  "homepage": "http://jquery-plugins.net/jqIpLocation/jqIpLocation.html",
+  "demo": "http://jquery-plugins.net/jqIpLocation/jqIpLocation_demo.html",
+  "docs": "http://jquery-plugins.net/jqIpLocation/jqIpLocation.html",  
+  "download": "http://jquery-plugins.net/jqIpLocation/jqIpLocation.html",
+  "keywords": ["IP", "location", "json", "jQuery", "plugin", "city", "country", "latitude", "longitude"]
+}
