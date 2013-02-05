@@ -28,13 +28,12 @@ jqIpLocation  jQuery IP Location Plugin
 
 ## Options
 
-- **Name**
+- **ip**
   IP Address that you want to get location info. It's required
+
 
 ## JSON Result
 
-- **Name**
-  IP Address that you want to get location info. It's required
 - **location.countryName**
   Country Name
 - **location.countryCode**
