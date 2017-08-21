@@ -5,17 +5,17 @@ $("#btnGetLocation").live("click", function () {
 
         $.jqIpLocation({
             ip: $('#txtIP').val(),
-            locationType: 'city',
             success: function (location) {
                 $('#divIP').empty();
                 $('#divIP').append('<table class="table table-bordered table-striped">'
-                + '<tr><td class="title">IP</td><td class="result">' + location.ipAddress + '</td></tr>'
-                + '<tr><td class="title">Country</td><td class="result">' + location.countryName + '</td></tr>'
+                + '<tr><td class="title">IP</td><td class="result">' + location.query + '</td></tr>'
+                + '<tr><td class="title">Country</td><td class="result">' + location.country + '</td></tr>'
                 + '<tr><td class="title">Country Code</td><td class="result">' + location.countryCode + '</td></tr>'
-                + '<tr><td class="title">City</td><td class="result">' + location.cityName + '</td></tr>'
+                + '<tr><td class="title">City</td><td class="result">' + location.city + '</td></tr>'
                 + '<tr><td class="title">Region</td><td class="result">' + location.cityName + '</td></tr>'
-                + '<tr><td class="title">Latitude</td><td class="result">' + location.latitude + '</td></tr>'
-                + '<tr><td class="title">Longitude</td><td class="result">' + location.longitude + '</td></tr>'
+                + '<tr><td class="title">Latitude</td><td class="result">' + location.lat + '</td></tr>'
+                + '<tr><td class="title">Longitude</td><td class="result">' + location.lon + '</td></tr>'
+                + '<tr><td class="title">Zip Code</td><td class="result">' + location.zip + '</td></tr>'
                 + '</table>');
             }
         });
