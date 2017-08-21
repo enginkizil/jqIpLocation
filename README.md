@@ -1,4 +1,4 @@
-jqIpLocation  jQuery IP Location Plugin
+jqIpLocation – jQuery IP Location Plugin
 ============
 
 **jqIpLocation** is a jQuery Plugin that returns the location of an IP address in JSON format. You can get country, country code, city name, region name, latitude, longitude and zip code information about IP address location.
@@ -29,7 +29,7 @@ jqIpLocation  jQuery IP Location Plugin
 
 ## Options
 
-- ip : IP Address that you want to get location info. It's required
+- **ip** : IP Address that you want to get location info. It's required
 
 
 ## JSON Result
