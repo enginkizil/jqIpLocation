@@ -1,8 +1,0 @@
-body{background-color:#F4F4EE; font:17px tahoma,Geneva,sans-serif; }
-h1 {color: #505050; font-size:2.2em;  margin: 0;  padding: 15px 0;  text-shadow: 1px 1px 0 #FFFFFF;}
-#divIP{ height:200px;}
-.title {color:#777777; width:30%;}
-.result {color:#2786C2}
-input[type="text"], .txt {font-size:20px; height:30px; padding:4px;}
-input[type="button"] {margin-top:-8px;}
-table{width:80% !important;}
