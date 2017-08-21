@@ -39,15 +39,15 @@ jqIpLocation  jQuery IP Location Plugin
   Country Name
 - location.countryCode :
   Country Code
-- **location.city :**
+- location.city :
   City Name
-- **location.regionName :**
+- location.regionName :
   Region Name
-- **location.lat :**
+- location.lat :
   Latitude
-- **location.lon :**
+- location.lon :
   Longitude
-- **location.zip :**
+- location.zip :
   Zip Code
 
 
