@@ -17,10 +17,11 @@ jqIpLocation  jQuery IP Location Plugin
 2- Add the Javascript that will returns you IP Location information in JSON format
 
       $.jqIpLocation({
-         ip : '213.243.4.20',
+         ip : '208.80.152.201',
          success: function(location) {	          
-            // location.countryName;
+            // location.country;
             // location.countryCode;
+            // location.city;
             ...
          }
        });
@@ -34,18 +35,20 @@ jqIpLocation  jQuery IP Location Plugin
 
 ## JSON Result
 
-- **location.countryName :**
+- **location.country :**
   Country Name
 - **location.countryCode :**
   Country Code
-- **location.cityName :**
+- **location.city :**
   City Name
 - **location.regionName :**
   Region Name
-- **location.latitude :**
+- **location.lat :**
   Latitude
-- **location.longitude :**
+- **location.lon :**
   Longitude
+- **location.zip :**
+  Zip Code
 
 
 ## Demo
