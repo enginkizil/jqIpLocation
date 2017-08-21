@@ -2,31 +2,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>jqIpLocation jQuery IP Location Plugin Demo</title>
-<script type="text/javascript" src="jquery-1.6.3.min.js"></script>
-<script type="text/javascript" src="jqIpLocation.js"></script>
- 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jqIpLocation.js"></script>
  <style>
-body{
-background-color:#F4F4EE; 
-font:13px tahoma,Geneva,sans-serif; 
-}
-
-h1 {
-    color: #505050;
-    font-size: 30px;
-    margin: 0;
-    padding: 15px 0;
-    text-shadow: 1px 1px 0 #FFFFFF;
-}
+body{ background-color:#F4F4EE;}
 #divIP{ height:200px;}
-.title {color:#AAA;width:100px;}
-.result {width:400px;color:#2786C2}
-
-
 </style>
-
-
-
 </head>
 <body>
 <div style="padding-left:20px">
@@ -54,7 +35,7 @@ if ($('#txtIP').val() != "") {
                 ip: $('#txtIP').val(),
                 success: function (location) {
                     $('#divIP').empty();
-                    $('#divIP').append('<table class="table table-bordered table-striped">'
+                    $('#divIP').append('<table>'
                     + '<tr><td>IP</td><td>:</td><td>' + location.query + '</td></tr>'
                     + '<tr><td>Country</td><td>:</td><td>' + location.country + '</td></tr>'
                     + '<tr><td>Country Code</td><td>:</td><td>' + location.countryCode + '</td></tr>'
